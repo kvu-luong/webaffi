@@ -55,12 +55,44 @@
 			</div>
 		</header>
 		<main>
-			<div>
+			<div id="main">
 				<!-- for product category above + ads bot-->
 				<div id="left-bar">
 				</div>
 				<div id="main-content">
-					<div id="search"></div>
+					<div id="search">
+						<div class="search-item">
+							<select id="category-product">
+								<option>Kem</option>
+								<option>Banh</option>
+								<option>Milk</option>
+							</select>
+						</div>
+						<div class="search-item">
+							<select id="price-detail">
+								<option> < 1 tr</option>
+								<option> 1tr ~ 5tr</option>
+								<option> > 5tr </option>
+							</select>
+						</div>
+						<div class="search-item">
+							<select id="price-detail">
+								<option> < 1 tr</option>
+								<option> 1tr ~ 5tr</option>
+								<option> > 5tr </option>
+							</select>
+						</div>
+						<div class="search-item">
+							<select id="nation-detail">
+								<option>Vietnam</option>
+								<option>China</option>
+								<option>America</option>
+							</select>
+						</div>
+						<div class="search-item">
+							<button><img alt="icon-search" src="./assets/img/search.png"/></button>
+						</div>
+					</div>
 					<div id="product">
 						<div id="hot-product"></div> <!-- best click & hot sale on other website -->
 						<div>Ads</div>
